@@ -1,5 +1,7 @@
 package com.conductor.desafio.models;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -9,12 +11,16 @@ import java.io.Serializable;
 @Table(name="TB_TERMINAL")
 public class Terminal implements Serializable {
     @Id
+    @NotNull
     private Integer logic;
+    @NotNull
     private String serial;
+    @NotNull
     private String model;
     private Integer sam;
     private String ptid;
     private Integer plat;
+    @NotNull
     private String version;
     private Integer mxr;
     private Integer mxf;
