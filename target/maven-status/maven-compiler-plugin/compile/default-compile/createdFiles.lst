@@ -1,0 +1,6 @@
+com\conductor\desafio\models\Terminal.class
+com\conductor\desafio\resources\DesafioResource.class
+com\conductor\desafio\services\ConverterToJson.class
+com\conductor\desafio\repository\DesafioRepository.class
+com\conductor\desafio\DesafioApplication.class
+com\conductor\desafio\config\SwaggerConfig.class
