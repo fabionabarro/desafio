@@ -44,5 +44,5 @@ EX: put
 
 get
 
-https://conductor-desafio.herokuapp.com/v1/terminal{logic}
+https://conductor-desafio.herokuapp.com/v1/terminal/{logic}
 
