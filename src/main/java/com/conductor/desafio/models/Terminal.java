@@ -107,19 +107,19 @@ public class Terminal implements Serializable {
         this.VERFM = VERFM;
     }
 
-    @Override
-    public String toString() {
+
+    public String toStringJson() {
         return "{" +
-                "logic:" + logic + "" +
-                ", serial:" + '\"' +  serial + '\"'  +
-                ", model:" + '\"' + model + '\"' +
-                ", sam:" + sam  +
-                ", ptid:" + '\"' + ptid + '\"' +
-                ", plat:" + plat +
-                ", version:" + '\"' + version + '\"' +
-                ", mxr:" + mxr +
-                ", mxf:" + mxf +
-                ", VERFM:"+ '\"'  + VERFM + '\"' +
+                "\"logic\":" + logic +
+                ", \"serial\":" +  '\"' +  serial + '\"'  +
+                ", \"model\":" +'\"' + model + '\"' +
+                ", \"sam\":" + sam  +
+                ", \"ptid\":" + '\"' + ptid + '\"' +
+                ", \"plat\":"+ plat +
+                ", \"version\":" +'\"' + version + '\"' +
+                ", \"mxr\":" +mxr +
+                ", \"mxf\":" + mxf +
+                ", \"VERFM\":"+ '\"'  + VERFM + '\"' +
                 '}';
     }
 }
