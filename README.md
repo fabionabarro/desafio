@@ -17,6 +17,32 @@ O projeto Desafio é uma api rest para manipular Terminais.
 
 https://conductor-desafio.herokuapp.com/swagger-ui.html#/desafio45resource
 
+## Endpoints:
+
+post/put
+
+https://conductor-desafio.herokuapp.com/v1/terminal
+
 Ex: POST:
 
 44332211;123;PWWIN;0;F04A2E4088B;4;8.00b3;0;16777216;PWWIN
+
+EX: put
+
+{
+   "logic": 44332211,
+   "serial": "12",
+   "model": "PWWIN",
+   "sam": 0,
+   "ptid": "F04A2E4088B",
+   "plat": 4,
+   "version": "8.00b3",
+   "mxr": 0,
+   "mxf": 16777216,
+   "verfm": "PWWIN"
+}
+
+get
+
+https://conductor-desafio.herokuapp.com/v1/terminal{logic}
+
